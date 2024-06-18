@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 const backgroundColor = Color.fromRGBO(19, 28, 33,1);
-const textColor = Color.fromRGBO(241, 241, 242, 1);
+const textColor = Color(0XFFe9edef);
 const appBarColor = Color(0XFF0B141A);
 const webAppBarColor = Color.fromRGBO(42,47,50,1);
 const messageColor = Color(0XFF005c4b);

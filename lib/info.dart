@@ -66,6 +66,13 @@ const info = [
   },
 ];
 
+const user = [
+  {
+    "profilePic":
+        "https://media.licdn.com/dms/image/D4D03AQGPNbkFYBpj4A/profile-displayphoto-shrink_800_800/0/1710974384324?e=1723680000&v=beta&t=REVnbDMTWc6PDbR1Qvh2AwUX78FECdiG_9VdLJZDd2I"
+  }
+];
+
 const messages = [
     {
       "isMe": false,

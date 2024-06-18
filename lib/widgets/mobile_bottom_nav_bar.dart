@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/screens/mobile_calls_screen.dart';
+import 'package:whatsapp_clone/screens/mobile_communities_screen.dart';
 import 'package:whatsapp_clone/screens/mobile_screen_layout.dart';
+import 'package:whatsapp_clone/screens/mobile_updates_screen.dart';
 import '../colors.dart';
 
 class MobileBottomNavBar extends StatefulWidget {
@@ -20,9 +23,9 @@ class _MobileBottomNavBarState extends State<MobileBottomNavBar> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     MobileScreenLayout(),
-    Text('Updates Screen'),
-    Text('Communities Screen'),
-    Text('Calls Screen'),
+    MobileUpdatesScreen(),
+    MobileCommunitiesScreen(),
+    MobileCallsScreen(),
   ];
 
   @override

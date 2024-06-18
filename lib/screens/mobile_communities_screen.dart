@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/widgets/contacts_list.dart';
-
 import '../colors.dart';
 
-class MobileScreenLayout extends StatelessWidget {
-  const MobileScreenLayout({super.key});
+class MobileCommunitiesScreen extends StatelessWidget {
+  const MobileCommunitiesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,10 +12,10 @@ class MobileScreenLayout extends StatelessWidget {
         foregroundColor: textColor,
         elevation: 0,
         title: const Text(
-          'WhatsApp',
+          'Communities',
           style: TextStyle(
             fontSize: 23,
-            fontWeight: FontWeight.w500,
+            fontWeight: FontWeight.w400,
           ),
         ),
         actions: [
@@ -42,13 +40,7 @@ class MobileScreenLayout extends StatelessWidget {
           ),
         ),
       ),
-      body: const ContactsList(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        backgroundColor: tabColor,
-        foregroundColor: backgroundColor,
-        child: const Icon(Icons.add_comment),
-      ),
+
     );
   }
 }
