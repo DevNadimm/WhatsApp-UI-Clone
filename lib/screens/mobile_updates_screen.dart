@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../colors.dart';
 import '../info.dart';
+import '../widgets/mobile_updates_screen_scrollable_container.dart';
 
 class MobileUpdatesScreen extends StatelessWidget {
   const MobileUpdatesScreen({super.key});
@@ -115,9 +116,10 @@ class MobileUpdatesScreen extends StatelessWidget {
                     Text(
                       'Tap to add status update',
                       style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w400,
-                          color: textColor.withOpacity(0.7)),
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
+                        color: textColor.withOpacity(0.7),
+                      ),
                     ),
                   ],
                 )
@@ -157,18 +159,23 @@ class MobileUpdatesScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 6,
+            height: 2,
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 18),
             child: Text(
               'Stay updated on topics that matter to you. Find channels to follow below',
               style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w400,
-                  color: textColor.withOpacity(0.7),),
+                fontSize: 14,
+                fontWeight: FontWeight.w400,
+                color: textColor.withOpacity(0.7),
+              ),
             ),
           ),
+          const SizedBox(
+            height: 23,
+          ),
+          const MobileUpdatesScreenScrollableContainer(),
         ],
       ),
     );
