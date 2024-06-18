@@ -67,8 +67,8 @@ class MobileInputBar extends StatelessWidget {
             ),
             const InkWell(
               child: CircleAvatar(
-                backgroundColor: tabColor,
-                foregroundColor: backgroundColor,
+                backgroundColor: floatingActionButtonColor,
+                foregroundColor: floatingActionButtonIconColor,
                 child: Icon(Icons.mic),
               ),
             )

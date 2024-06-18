@@ -44,8 +44,8 @@ class MobileUpdatesScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: const Color(0XFF23c063),
-        foregroundColor: const Color(0XFF0b141a),
+        backgroundColor: floatingActionButtonColor,
+        foregroundColor: floatingActionButtonIconColor,
         child: const Icon(Icons.camera_alt),
       ),
       body: Column(
@@ -192,8 +192,8 @@ class MobileUpdatesScreen extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0XFF23c063),
-                  foregroundColor: const Color(0XFF0b141a),
+                  backgroundColor: floatingActionButtonColor,
+                  foregroundColor: floatingActionButtonIconColor,
                 ),
                 child: const Text(
                   'Explore more',
