@@ -42,6 +42,12 @@ class MobileUpdatesScreen extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: const Color(0XFF23c063),
+        foregroundColor: const Color(0XFF0b141a),
+        child: const Icon(Icons.camera_alt),
+      ),
       body: Column(
         children: [
           const SizedBox(
@@ -176,6 +182,26 @@ class MobileUpdatesScreen extends StatelessWidget {
             height: 23,
           ),
           const MobileUpdatesScreenScrollableContainer(),
+          const SizedBox(
+            height: 23,
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 18),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: const Color(0XFF23c063),
+                  foregroundColor: const Color(0XFF0b141a),
+                ),
+                child: const Text(
+                  'Explore more',
+                  style: TextStyle(fontWeight: FontWeight.w500),
+                ),
+              ),
+            ),
+          )
         ],
       ),
     );
