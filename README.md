@@ -1,4 +1,4 @@
-# WhatsApp Clone - Flutter UI Project
+# WhatsApp UI Clone
 
 This project is a UI clone of WhatsApp built using Flutter. The objective is to replicate the user interface of the popular messaging app, WhatsApp, using Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
 
@@ -33,7 +33,7 @@ To run this project on your local machine, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/whatsapp_clone_flutter.git
+    git clone https://github.com/DevNadim/whatsapp_clone_flutter.git
     ```
 2. **Navigate to the project directory:**
     ```bash
