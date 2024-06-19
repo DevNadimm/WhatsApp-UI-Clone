@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/screens/mobile_audio_call_screen.dart';
 
 import '../colors.dart';
 
@@ -39,7 +40,7 @@ class MobileCustomAppBar extends StatelessWidget {
           const Spacer(),
           IconButton(
             icon: const Icon(
-              Icons.video_call_outlined,
+              Icons.videocam_outlined,
             ),
             onPressed: () {},
           ),
@@ -47,7 +48,14 @@ class MobileCustomAppBar extends StatelessWidget {
             icon: const Icon(
               Icons.call_outlined,
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => MobileAudioCallScreen(name: name, imgURL: imgURL,),
+                ),
+              );
+            },
           ),
           IconButton(
             icon: const Icon(

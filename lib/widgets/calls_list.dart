@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/colors.dart';
 import 'package:whatsapp_clone/info.dart';
+import 'package:whatsapp_clone/screens/mobile_audio_call_screen.dart';
 
 class CallsList extends StatelessWidget {
   const CallsList({super.key});
@@ -29,14 +30,17 @@ class CallsList extends StatelessWidget {
                 child: Row(
                   children: [
                     Transform.rotate(
-                      angle: calls[index]['icon'] == Icons.arrow_upward ? 45 : 0.9,
+                      angle:
+                          calls[index]['icon'] == Icons.arrow_upward ? 45 : 0.9,
                       child: Icon(
-                        calls[index]['icon'] as IconData?, // Pass IconData directly
+                        calls[index]['icon'] as IconData?,
+                        // Pass IconData directly
                         size: 17,
                         color: floatingActionButtonColor,
                       ),
                     ),
-                    const SizedBox(width: 5), // Add spacing between icon and text
+                    const SizedBox(width: 5),
+                    // Add spacing between icon and text
                     Text(
                       calls[index]['date'].toString(),
                       style: const TextStyle(fontSize: 15, color: Colors.grey),
@@ -52,7 +56,17 @@ class CallsList extends StatelessWidget {
                 radius: 26,
               ),
               trailing: IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => MobileAudioCallScreen(
+                        name: calls[index]['name'].toString(),
+                        imgURL: calls[index]['profilePic'].toString(),
+                      ),
+                    ),
+                  );
+                },
                 icon: const Icon(Icons.call_outlined, color: textColor),
               ),
             ),

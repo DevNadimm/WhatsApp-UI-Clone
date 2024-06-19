@@ -266,7 +266,7 @@ final List<Map<String, String>> channels = [
 
 const calls = [
   {
-    'name': 'Ammu(2)',
+    'name': 'Ammu',
     'date': 'Today, 10:01 AM',
     'icon': Icons.arrow_upward,
     'profilePic':

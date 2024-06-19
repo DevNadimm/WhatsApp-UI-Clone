@@ -107,6 +107,12 @@ class MobileCallsScreen extends StatelessWidget {
         ],
         body: const CallsList(),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
+        backgroundColor: floatingActionButtonColor,
+        foregroundColor: floatingActionButtonIconColor,
+        child: const Icon(Icons.add_ic_call_rounded),
+      ),
     );
   }
 }
