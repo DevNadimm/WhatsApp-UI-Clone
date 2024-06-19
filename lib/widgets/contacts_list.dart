@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/colors.dart';
 import 'package:whatsapp_clone/info.dart';
 import 'package:whatsapp_clone/screens/mobile_chat_screen.dart';
 
@@ -29,7 +30,7 @@ class ContactsList extends StatelessWidget {
                   info[index]['name'].toString(),
                   style: const TextStyle(
                     fontSize: 18,
-                    color: Colors.white,
+                    color: textColor,
                     fontWeight: FontWeight.w500,
                   ),
                 ),

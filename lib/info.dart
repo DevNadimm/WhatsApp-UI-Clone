@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 const info = [
   {
     'name': 'Rabbil Hasan',
@@ -9,64 +11,77 @@ const info = [
   {
     'name': 'Hasin Hayder',
     'message': 'Hello, whats up',
-    'time': '2:25 pm',
+    'time': '6/17/24',
     'profilePic':
         'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/440030150_10160445493824633_9209251469881098861_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=By113j_7DxsQ7kNvgFz0NOU&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYBLMHSYlNJ4K1JuMvWcOJm3fJeZXBnv9q242ALo4Swv7g&oe=66739CED',
   },
   {
+    'name': 'Ayan Hossain',
+    'time': '6/17/24',
+    'message': 'Okk Bye.',
+    'profilePic': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyHC9h4miHDT7SeZIs03UdztEnbNELc9GkxQ&s'
+  },
+  {
     'name': 'Rafat J.M.',
     'message': 'Hello, I want to sleep.',
-    'time': '1:03 pm',
+    'time': '6/16/24',
     'profilePic':
         'https://media.licdn.com/dms/image/C5603AQEn4-ImoYVGoQ/profile-displayphoto-shrink_800_800/0/1625048455523?e=1723680000&v=beta&t=ogjlmKCEmTgIPvjVSmD4zjcDaFp4B0At1OT-9m7mPyc',
   },
   {
     'name': 'Sumit Saha',
     'message': 'Call me, have some work',
-    'time': '12:06 pm',
+    'time': '6/14/24',
     'profilePic':
         'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/438238734_2851934131635645_581832425853284781_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dmMWGPmW22cQ7kNvgEbUnBS&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYBdJ9H3vngsFGWJokNyCamfmXGICdPSXYkhOSSP_rtCVA&oe=66739BC0',
   },
   {
     'name': 'Jhankar Mahbub',
-    'message': 'You ate food?',
-    'time': '10:00 am',
+    'message': 'Hey Nadim! What are you...',
+    'time': '6/14/24',
     'profilePic':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD-_MILXn5-tMGuL53zC9yiswl3WtRwE-koQ&s'
   },
   {
+    'name': 'Abbu',
+    'time': '6/13/24',
+    'message': 'https://www.youtube...',
+    'profilePic':
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM49M1hAcFgjIDgiu-obvuKex9QN7GEhJns2IRUK66M2ymxNM8DS_BfGrd6NQBENLM-EU&usqp=CAU'
+  },
+  {
     'name': 'Abdur Rakib',
     'message': 'Yo!!!!! Long time, no see!?',
-    'time': '9:53 am',
+    'time': '6/13/24',
     'profilePic':
         'https://media.licdn.com/dms/image/D5603AQE-wWsjuSc4bA/profile-displayphoto-shrink_200_200/0/1703761380159?e=2147483647&v=beta&t=-P7aXupzYIYOAcTeRVkhzOjGOjbM_liwlEq08siPtR8',
   },
   {
     'name': 'Zaheed Sabur',
-    'message': 'Am I fat?',
-    'time': '7:25 am',
+    'message': 'Thanks!',
+    'time': '6/13/24',
     'profilePic':
         'https://media.licdn.com/dms/image/D4E03AQFcu1aYRRKKyA/profile-displayphoto-shrink_200_200/0/1674996319635?e=2147483647&v=beta&t=V9Al-orW-dkk58owCFbPmNu-67em9p9FR7ycMTz2Ft4',
   },
   {
     'name': 'Abdullah Al Mamun',
     'message': 'I am from International Olym...',
-    'time': '6:02 am',
+    'time': '6/13/24',
     'profilePic': 'https://avatars.githubusercontent.com/u/5027395?v=4',
   },
   {
-    'name': 'Sikandar',
-    'message': 'Lets Code!',
-    'time': '4:56 am',
+    'name': 'Ammu',
+    'time': '6/11/24',
+    'message': 'Voice call',
     'profilePic':
-        'https://images.unsplash.com/photo-1619194617062-5a61b9c6a049?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
+    'https://static.vecteezy.com/system/resources/previews/009/749/653/original/mother-woman-profile-mascot-illustration-female-avatar-icon-cartoon-girl-head-face-business-user-logo-free-vector.jpg',
   },
   {
-    'name': 'Ian Dooley',
-    'message': 'Images by Unsplash',
-    'time': '1:00 am',
+    'name': 'Yamin Faruq',
+    'message': 'Great work',
+    'time': '6/11 /24',
     'profilePic':
-        'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'https://img.freepik.com/free-photo/portrait-young-man-talking-phone-walking-street_231208-2764.jpg',
   },
 ];
 
@@ -245,5 +260,85 @@ final List<Map<String, String>> channels = [
     'name': 'Twitter',
     'profilePic':
         'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/1200px-X_logo.jpg',
+  },
+];
+
+
+const calls = [
+  {
+    'name': 'Ammu(2)',
+    'date': 'Today, 10:01 AM',
+    'icon': Icons.arrow_upward,
+    'profilePic':
+    'https://static.vecteezy.com/system/resources/previews/009/749/653/original/mother-woman-profile-mascot-illustration-female-avatar-icon-cartoon-girl-head-face-business-user-logo-free-vector.jpg',
+  },
+  {
+    'name': 'Hasin Hayder',
+    'date': 'June 17, 4:38 PM',
+    'icon': Icons.arrow_downward,
+    'profilePic':
+    'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/440030150_10160445493824633_9209251469881098861_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=By113j_7DxsQ7kNvgFz0NOU&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYBLMHSYlNJ4K1JuMvWcOJm3fJeZXBnv9q242ALo4Swv7g&oe=66739CED',
+  },
+  {
+    'name': 'Ayan Hossain',
+    'date': 'June 17, 11:08 AM',
+    'icon': Icons.arrow_upward,
+    'profilePic': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyHC9h4miHDT7SeZIs03UdztEnbNELc9GkxQ&s'
+  },
+  {
+    'name': 'Abbu',
+    'date': 'June 16, 8:05 AM',
+    'icon': Icons.arrow_downward,
+    'profilePic':
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM49M1hAcFgjIDgiu-obvuKex9QN7GEhJns2IRUK66M2ymxNM8DS_BfGrd6NQBENLM-EU&usqp=CAU'
+  },
+  {
+    'name': 'Rabbil Hasan',
+    'date': 'June 15, 10:01 PM',
+    'icon': Icons.arrow_upward,
+    'profilePic':
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU8ViFfeNbJGt1W3D3966tkH0CqxNxIvoWcw&s',
+  },
+  {
+    'name': 'Rabbil Hasan',
+    'date': 'June 15, 9:58 PM',
+    'icon': Icons.arrow_downward,
+    'profilePic':
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU8ViFfeNbJGt1W3D3966tkH0CqxNxIvoWcw&s',
+  },
+  {
+    'name': 'Rabbil Hasan',
+    'date': 'June 15, 9:50 PM',
+    'icon': Icons.arrow_downward,
+    'profilePic':
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU8ViFfeNbJGt1W3D3966tkH0CqxNxIvoWcw&s',
+  },
+  {
+    'name': 'Yamin Faruq',
+    'date': 'June 15, 11:17 AM',
+    'icon': Icons.arrow_downward,
+    'profilePic':
+    'https://img.freepik.com/free-photo/portrait-young-man-talking-phone-walking-street_231208-2764.jpg',
+  },
+  {
+    'name': 'Ammu',
+    'date': 'June 13, 3:45 PM',
+    'icon': Icons.arrow_upward,
+    'profilePic':
+    'https://static.vecteezy.com/system/resources/previews/009/749/653/original/mother-woman-profile-mascot-illustration-female-avatar-icon-cartoon-girl-head-face-business-user-logo-free-vector.jpg',
+  },
+  {
+    'name': 'Rafat J.M.',
+    'date': 'June 10, 8:33 AM',
+    'icon': Icons.arrow_upward,
+    'profilePic':
+    'https://media.licdn.com/dms/image/C5603AQEn4-ImoYVGoQ/profile-displayphoto-shrink_800_800/0/1625048455523?e=1723680000&v=beta&t=ogjlmKCEmTgIPvjVSmD4zjcDaFp4B0At1OT-9m7mPyc',
+  },
+  {
+    'name': 'Yamin Faruq',
+    'date': 'June 07, 6:55 PM',
+    'icon': Icons.arrow_downward,
+    'profilePic':
+    'https://img.freepik.com/free-photo/portrait-young-man-talking-phone-walking-street_231208-2764.jpg',
   },
 ];
