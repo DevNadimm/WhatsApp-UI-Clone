@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 const info = [
   {
     'name': 'Rabbil Hasan',
-    'message': 'Hey, how are you doing?',
+    'message': 'Bye! 👋',
     'time': '3:53 pm',
     'profilePic':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU8ViFfeNbJGt1W3D3966tkH0CqxNxIvoWcw&s',
