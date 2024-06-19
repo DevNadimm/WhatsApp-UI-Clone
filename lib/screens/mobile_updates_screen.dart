@@ -169,12 +169,15 @@ class MobileUpdatesScreen extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 18),
-            child: Text(
-              'Stay updated on topics that matter to you. Find channels to follow below',
-              style: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w400,
-                color: textColor.withOpacity(0.7),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                'Stay updated on topics that matter to you. Find channels to follow below',
+                style: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.w400,
+                  color: textColor.withOpacity(0.7),
+                ),
               ),
             ),
           ),
