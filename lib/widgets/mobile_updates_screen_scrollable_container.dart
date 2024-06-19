@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../colors.dart';
@@ -16,10 +15,10 @@ class MobileUpdatesScreenScrollableContainer extends StatelessWidget {
           const SizedBox(width: 18.0),
           ...List.generate(
             channels.length,
-            (index) {
+                (index) {
               return Container(
                 margin: const EdgeInsets.only(right: 11),
-                padding: EdgeInsets.all(8),
+                padding: const EdgeInsets.all(8),
                 width: 135,
                 height: 160,
                 decoration: BoxDecoration(
