@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/screens/mobile_audio_call_screen.dart';
 
 import '../colors.dart';
+import '../screens/mobile_video_call_screen.dart';
 
 class MobileCustomAppBar extends StatelessWidget {
   const MobileCustomAppBar(
@@ -42,7 +43,14 @@ class MobileCustomAppBar extends StatelessWidget {
             icon: const Icon(
               Icons.videocam_outlined,
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => MobileVideoCallScreen(name: name),
+                ),
+              );
+            },
           ),
           IconButton(
             icon: const Icon(
