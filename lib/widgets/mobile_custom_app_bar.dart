@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/screens/mobile_audio_call_screen.dart';
+import 'package:whatsapp_clone/screens/mobile_user_profile_screen.dart';
 
 import '../colors.dart';
 import '../screens/mobile_video_call_screen.dart';
@@ -34,11 +35,14 @@ class MobileCustomAppBar extends StatelessWidget {
             width: 07,
           ),
           Expanded(
-            child: Text(
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              name,
-              style: const TextStyle(fontSize: 19,color: textColor),
+            child: InkWell(
+              onTap: (){Navigator.push(context, MaterialPageRoute(builder: (_) => MobileUserProfileScreen(name: name, imgURL: imgURL)));},
+              child: Text(
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                name,
+                style: const TextStyle(fontSize: 19,color: textColor),
+              ),
             ),
           ),
           Row(

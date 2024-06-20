@@ -51,18 +51,16 @@ class MobileScreenLayout extends StatelessWidget {
               ),
               PopupMenuItem(
                 value: 5,
-                child: InkWell(
-                  onTap: () {
-                    Navigator.pop(context);
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => const SettingScreen(),
-                      ),
-                    );
-                  },
-                  child: const Text("Settings"),
-                ),
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const SettingScreen(),
+                    ),
+                  );
+                },
+                child: const Text("Settings"),
               ),
             ],
           ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/screens/mobile_profile_screen.dart';
 
 import '../colors.dart';
 import '../info.dart';
@@ -219,66 +220,69 @@ class CustomRowForProfile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        CircleAvatar(
-          radius: 30,
-          backgroundColor: Colors.grey,
-          backgroundImage: NetworkImage(
-            user[0]["profilePic"].toString(),
+    return GestureDetector(
+      onTap: (){Navigator.push(context, MaterialPageRoute(builder: (_) => const MobileProfileScreen()));},
+      child: Row(
+        children: [
+          CircleAvatar(
+            radius: 30,
+            backgroundColor: Colors.grey,
+            backgroundImage: NetworkImage(
+              user[0]["profilePic"].toString(),
+            ),
           ),
-        ),
-        const SizedBox(
-          width: 14,
-        ),
-        Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              user[0]['Name'].toString(),
-              style: const TextStyle(
-                  fontSize: 17, fontWeight: FontWeight.w500, color: textColor),
-            ),
-            Row(
-              children: [
-                Text(
-                  'Sleeping ',
-                  style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w400,
-                    color: textColor.withOpacity(0.7),
+          const SizedBox(
+            width: 14,
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                user[0]['Name'].toString(),
+                style: const TextStyle(
+                    fontSize: 17, fontWeight: FontWeight.w500, color: textColor),
+              ),
+              Row(
+                children: [
+                  Text(
+                    'Sleeping ',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w400,
+                      color: textColor.withOpacity(0.7),
+                    ),
                   ),
-                ),
-                const Text(
-                  '😴',
-                  style: TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w400,
-                    color: textColor,
+                  const Text(
+                    '😴',
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w400,
+                      color: textColor,
+                    ),
                   ),
-                ),
-              ],
-            ),
-          ],
-        ),
-        const Spacer(),
-        const Row(
-          children: [
-            Icon(
-              Icons.qr_code,
-              color: floatingActionButtonColor,
-            ),
-            SizedBox(
-              width: 10,
-            ),
-            Icon(
-              Icons.arrow_drop_down_circle_outlined,
-              color: floatingActionButtonColor,
-            ),
-          ],
-        )
-      ],
+                ],
+              ),
+            ],
+          ),
+          const Spacer(),
+          const Row(
+            children: [
+              Icon(
+                Icons.qr_code,
+                color: floatingActionButtonColor,
+              ),
+              SizedBox(
+                width: 10,
+              ),
+              Icon(
+                Icons.arrow_drop_down_circle_outlined,
+                color: floatingActionButtonColor,
+              ),
+            ],
+          )
+        ],
+      ),
     );
   }
 }
