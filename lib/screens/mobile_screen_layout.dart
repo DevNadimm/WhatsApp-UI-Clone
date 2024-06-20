@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/screens/setting_screen.dart';
 import 'package:whatsapp_clone/widgets/contacts_list.dart';
-
 import '../colors.dart';
 import '../widgets/custom_dropdown_button.dart';
 
@@ -52,7 +51,6 @@ class MobileScreenLayout extends StatelessWidget {
               PopupMenuItem(
                 value: 5,
                 onTap: () {
-                  Navigator.pop(context);
                   Navigator.push(
                     context,
                     MaterialPageRoute(
