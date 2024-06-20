@@ -12,7 +12,10 @@ class WhatsAppClone extends StatelessWidget {
     return MaterialApp(
       title: 'WhatsApp',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(scaffoldBackgroundColor: appBarColor),
+      theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor: appBarColor,
+        popupMenuTheme: const PopupMenuThemeData(color: chatBarMessage,),
+      ),
       home: const ResponsiveLayout(
         webScreenLayout: WebScreenLayout(),
         mobileScreenLayout: MobileBottomNavBar(),

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/screens/setting_screen.dart';
 import 'package:whatsapp_clone/widgets/contacts_list.dart';
 
 import '../colors.dart';
+import '../widgets/custom_dropdown_button.dart';
 
 class MobileScreenLayout extends StatelessWidget {
   const MobileScreenLayout({super.key});
@@ -29,9 +31,32 @@ class MobileScreenLayout extends StatelessWidget {
             onPressed: () {},
             icon: const Icon(Icons.search),
           ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.more_vert),
+          CustomDropdownButton(
+            menuItems: [
+              const PopupMenuItem(
+                value: 1,
+                child: Text("New group"),
+              ),
+              const PopupMenuItem(
+                value: 2,
+                child: Text("New broadcast"),
+              ),
+              const PopupMenuItem(
+                value: 2,
+                child: Text("Linked devices"),
+              ),
+              const PopupMenuItem(
+                value: 2,
+                child: Text("Starred messages"),
+              ),
+              PopupMenuItem(
+                value: 2,
+                child: InkWell(
+                  onTap: (){Navigator.push(context, MaterialPageRoute(builder: (_) => const SettingScreen()));},
+                    child: const Text("Setting"),
+                ),
+              ),
+            ],
           ),
         ],
         bottom: const PreferredSize(
