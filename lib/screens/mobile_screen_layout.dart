@@ -42,18 +42,26 @@ class MobileScreenLayout extends StatelessWidget {
                 child: Text("New broadcast"),
               ),
               const PopupMenuItem(
-                value: 2,
+                value: 3,
                 child: Text("Linked devices"),
               ),
               const PopupMenuItem(
-                value: 2,
+                value: 4,
                 child: Text("Starred messages"),
               ),
               PopupMenuItem(
-                value: 2,
+                value: 5,
                 child: InkWell(
-                  onTap: (){Navigator.push(context, MaterialPageRoute(builder: (_) => const SettingScreen()));},
-                    child: const Text("Setting"),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const SettingScreen(),
+                      ),
+                    );
+                  },
+                  child: const Text("Settings"),
                 ),
               ),
             ],
