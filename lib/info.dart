@@ -13,7 +13,7 @@ const info = [
     'message': 'Hello, whats up',
     'time': '6/17/24',
     'profilePic':
-        'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/440030150_10160445493824633_9209251469881098861_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=By113j_7DxsQ7kNvgFz0NOU&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYBLMHSYlNJ4K1JuMvWcOJm3fJeZXBnv9q242ALo4Swv7g&oe=66739CED',
+    'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/436277808_10160420277659633_3937826334645971125_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHVJZYMw8xSjge9vx0Oh52l9A6fLLSzLS30Dp8stLMtLdu0zK3F_qxoyHwDfQqY6rNVVlurDzI4r8_pDn4h7Iie&_nc_ohc=GH2tGwZX2KUQ7kNvgHUZxhY&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYDd5-gvJ8gzVB1yOI3bz_tSu3x524DFkQXj7cG2SFwYQg&oe=667A1BE7'
   },
   {
     'name': 'Ayan Hossain',
@@ -33,7 +33,7 @@ const info = [
     'message': 'Call me, have some work',
     'time': '6/14/24',
     'profilePic':
-        'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/438238734_2851934131635645_581832425853284781_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dmMWGPmW22cQ7kNvgEbUnBS&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYBdJ9H3vngsFGWJokNyCamfmXGICdPSXYkhOSSP_rtCVA&oe=66739BC0',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6MQh7douD48jrmi5LS9OPdnXPA9LJYMtFhw&s'
   },
   {
     'name': 'Jhankar Mahbub',
