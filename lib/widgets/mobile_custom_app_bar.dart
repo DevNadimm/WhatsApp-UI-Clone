@@ -33,43 +33,49 @@ class MobileCustomAppBar extends StatelessWidget {
           const SizedBox(
             width: 07,
           ),
-          Text(
-            overflow: TextOverflow.ellipsis,
-            name,
-            style: const TextStyle(fontSize: 19),
-          ),
-          const Spacer(),
-          IconButton(
-            icon: const Icon(
-              Icons.videocam_outlined,
+          Expanded(
+            child: Text(
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              name,
+              style: const TextStyle(fontSize: 19,color: textColor),
             ),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => MobileVideoCallScreen(name: name),
+          ),
+          Row(
+            children: [
+              IconButton(
+                icon: const Icon(
+                  Icons.videocam_outlined,
                 ),
-              );
-            },
-          ),
-          IconButton(
-            icon: const Icon(
-              Icons.call_outlined,
-            ),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => MobileAudioCallScreen(name: name, imgURL: imgURL,),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => MobileVideoCallScreen(name: name),
+                    ),
+                  );
+                },
+              ),
+              IconButton(
+                icon: const Icon(
+                  Icons.call_outlined,
                 ),
-              );
-            },
-          ),
-          IconButton(
-            icon: const Icon(
-              Icons.more_vert,
-            ),
-            onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => MobileAudioCallScreen(name: name, imgURL: imgURL,),
+                    ),
+                  );
+                },
+              ),
+              IconButton(
+                icon: const Icon(
+                  Icons.more_vert,
+                ),
+                onPressed: () {},
+              ),
+            ],
           ),
         ],
       ),
