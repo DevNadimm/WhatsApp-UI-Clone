@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone/screens/setting_screen.dart';
 import 'package:whatsapp_clone/widgets/calls_list.dart';
 import '../colors.dart';
+import '../widgets/custom_dropdown_button.dart';
 
 class MobileCallsScreen extends StatelessWidget {
   const MobileCallsScreen({super.key});
@@ -28,10 +30,26 @@ class MobileCallsScreen extends StatelessWidget {
             onPressed: () {},
             icon: const Icon(Icons.search),
           ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.more_vert),
-          ),
+          CustomDropdownButton(
+            menuItems: [
+              const PopupMenuItem(
+                value: 1,
+                child: Text('Clear call log  '),
+              ),
+              PopupMenuItem(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const SettingScreen(),
+                    ),
+                  );
+                },
+                value: 2,
+                child: const Text('Settings'),
+              ),
+            ],
+          )
         ],
         bottom: const PreferredSize(
           preferredSize: Size.fromHeight(0),
@@ -108,7 +126,7 @@ class MobileCallsScreen extends StatelessWidget {
         body: const CallsList(),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {  },
+        onPressed: () {},
         backgroundColor: floatingActionButtonColor,
         foregroundColor: floatingActionButtonIconColor,
         child: const Icon(Icons.add_ic_call_rounded),

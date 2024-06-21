@@ -1,44 +1,44 @@
 # WhatsApp UI Clone
 
-This project is a UI clone of WhatsApp built using Flutter. The objective is to replicate the user interface of the popular messaging app, WhatsApp, using Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
-
-## Features
-
-- **Chat List**: Displays a list of recent chats with users.
-- **Chat Screen**: Detailed chat interface with messages.
-- **Status Screen**: Displays user statuses.
-- **Call Screen**: Lists recent calls and call details.
-- **Profile Screen**: User profile details and settings.
+This repository contains a Flutter project that replicates the user interface of WhatsApp. The project includes multiple screens to mimic the WhatsApp experience, such as the contacts list, chats list, contact profile, user profile, status updates, community, call history, and audio calls.
 
 ## Screenshots
 
-### Chat List
-![Chat List Screen](screenshots/chat_list.png)
+Here are some screenshots of the application:
 
-### Chat Screen
-![Chat Screen](screenshots/chat_screen.png)
+![Screenshot 1](screenshots/screenshot1.jpg)
+![Screenshot 2](screenshots/screenshot2.jpg)
 
-### Status Screen
-![Status Screen](screenshots/status_screen.png)
+## Features
 
-### Call Screen
-![Call Screen](screenshots/call_screen.png)
-
-### Profile Screen
-![Profile Screen](screenshots/profile_screen.png)
+- **Contacts List:** Browse and manage your contacts.
+- **Chats List:** View and engage in conversations.
+- **Contact Profile:** View and manage individual contact details.
+- **User Profile:** Customize your own profile information.
+- **Status Updates:** View and post status updates.
+- **Community:** Interact with groups and communities.
+- **Call History:** View and manage your call logs.
+- **Audio Calls:** Manage and view audio call records.
 
 ## Getting Started
 
-To run this project on your local machine, follow these steps:
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Android Studio or VS Code: [Install Android Studio](https://developer.android.com/studio) or [Install VS Code](https://code.visualstudio.com/)
+
+### Installation
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/DevNadim/whatsapp_clone_flutter.git
-    ```
+   git clone https://github.com/DevNadimm/WhatsApp-UI-Clone.git
+
 2. **Navigate to the project directory:**
     ```bash
-    cd whatsapp_clone_flutter
-    ```
+   cd WhatsApp-UI-Clone
+
 3. **Install dependencies:**
     ```bash
     flutter pub get
@@ -77,6 +77,3 @@ If you have any questions, feel free to reach out:
 ---
 
 *This project is not affiliated with WhatsApp or Facebook, Inc. It is an independent project created for educational purposes.*
-
-
-

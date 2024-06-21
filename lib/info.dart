@@ -13,8 +13,7 @@ const info = [
     'message': 'Hello, whats up',
     'time': '6/17/24',
     'profilePic':
-    'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/436277808_10160420277659633_3937826334645971125_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHVJZYMw8xSjge9vx0Oh52l9A6fLLSzLS30Dp8stLMtLdu0zK3F_qxoyHwDfQqY6rNVVlurDzI4r8_pDn4h7Iie&_nc_ohc=GH2tGwZX2KUQ7kNvgHUZxhY&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYDd5-gvJ8gzVB1yOI3bz_tSu3x524DFkQXj7cG2SFwYQg&oe=667A1BE7'
-  },
+    'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-1/440030150_10160445493824633_9209251469881098861_n.jpg?stp=c0.0.200.200a_dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE-rLangkLIZwUxT4ZJ-YwXlDan5xFV6D2UNqfnEVXoPfg8b1afIo7WkejfVlMMpE5DaR6iiMnCTRqkbGkb87mJ&_nc_ohc=z9Y6QBvWNdIQ7kNvgF2WcMB&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYDUGfH-WfPK-TiLJ2MDB3D839u53lcqXwepgI1VwP0OxQ&oe=667B26DD'  },
   {
     'name': 'Ayan Hossain',
     'time': '6/17/24',
@@ -88,7 +87,7 @@ const info = [
 const user = [
   { "Name" : "Nadim",
     "profilePic":
-        "https://media.licdn.com/dms/image/D4D03AQGPNbkFYBpj4A/profile-displayphoto-shrink_800_800/0/1710974384324?e=1723680000&v=beta&t=REVnbDMTWc6PDbR1Qvh2AwUX78FECdiG_9VdLJZDd2I"
+    "https://media.licdn.com/dms/image/D4D03AQEvVkH1qtK-xA/profile-displayphoto-shrink_800_800/0/1718945039811?e=1724284800&v=beta&t=Il87PW4PG-W4MHIZlbojMSWVTp-EsLF_791auDEheUM"
   }
 ];
 
@@ -277,7 +276,7 @@ const calls = [
     'date': 'June 17, 4:38 PM',
     'icon': Icons.arrow_downward,
     'profilePic':
-    'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-6/440030150_10160445493824633_9209251469881098861_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=By113j_7DxsQ7kNvgFz0NOU&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYBLMHSYlNJ4K1JuMvWcOJm3fJeZXBnv9q242ALo4Swv7g&oe=66739CED',
+    'https://scontent.fcgp36-1.fna.fbcdn.net/v/t39.30808-1/440030150_10160445493824633_9209251469881098861_n.jpg?stp=c0.0.200.200a_dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE-rLangkLIZwUxT4ZJ-YwXlDan5xFV6D2UNqfnEVXoPfg8b1afIo7WkejfVlMMpE5DaR6iiMnCTRqkbGkb87mJ&_nc_ohc=z9Y6QBvWNdIQ7kNvgF2WcMB&_nc_ht=scontent.fcgp36-1.fna&oh=00_AYDUGfH-WfPK-TiLJ2MDB3D839u53lcqXwepgI1VwP0OxQ&oe=667B26DD'
   },
   {
     'name': 'Ayan Hossain',
