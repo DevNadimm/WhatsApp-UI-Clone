@@ -15,7 +15,7 @@ class MobileUpdatesScreenScrollableContainer extends StatelessWidget {
           const SizedBox(width: 18.0),
           ...List.generate(
             channels.length,
-                (index) {
+            (index) {
               return Container(
                 margin: const EdgeInsets.only(right: 11),
                 padding: const EdgeInsets.all(8),
@@ -58,7 +58,10 @@ class MobileUpdatesScreenScrollableContainer extends StatelessWidget {
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       channels[index]['name'].toString(),
-                      style: const TextStyle(color: textColor, fontSize: 15, fontWeight: FontWeight.w500),
+                      style: const TextStyle(
+                          color: textColor,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w500),
                     ),
                     Container(
                       width: 100,
