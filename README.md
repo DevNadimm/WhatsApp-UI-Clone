@@ -53,10 +53,6 @@ To get a local copy up and running follow these simple steps.
 - **Flutter SDK**: Make sure you have Flutter installed on your machine. You can download it from [here](https://flutter.dev/docs/get-started/install).
 - **Dart SDK**: Dart is included in the Flutter SDK, so you don’t need to install it separately.
 
-## Project Structure
-
-The project structure follows the standard Flutter project setup:
-
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
